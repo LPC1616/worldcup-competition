@@ -1,0 +1,46 @@
+Arguments: 
+  /home/sdf/.nvm/versions/node/v16.14.2/bin/node /home/sdf/.node/corepack/yarn/1.22.15/bin/yarn.js add @openzeppelin/contracts
+
+PATH: 
+  /home/sdf/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/bin/remote-cli:/home/sdf/.nvm/versions/node/v16.14.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.0/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.0/libnvvp:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/software/Bandizip/:/mnt/d/software/jdk1.8/bin:/mnt/d/software/apache-maven-3.8.1-bin/apache-maven-3.8.1/bin:/mnt/d/software/Git/cmd:/mnt/d/software/nodejs/:/mnt/d/software/anaconda:/mnt/d/software/anaconda/Library/mingw-w64/bin:/mnt/d/software/anaconda/Library/usr/bin:/mnt/d/software/anaconda/Library/bin:/mnt/d/software/anaconda/Scripts:/mnt/c/Users/刘沛铖/AppData/Local/Microsoft/WindowsApps:/mnt/d/software/IntelliJ IDEA 2021.3.1/bin:/mnt/d/software/Microsoft VS Code/bin:/mnt/c/Users/刘沛铖/AppData/Roaming/npm:/snap/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.14.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN cdn.npmmirror.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+    "name": "worldcup-competition",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+      "hardhat": "^2.11.1",
+      "prettier": "^2.8.1"
+    },
+    "dependencies": {
+      "@openzeppelin/contracts": "^4.8.0",
+      "dotenv": "^16.0.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
